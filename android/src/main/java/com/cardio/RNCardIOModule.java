@@ -120,7 +120,4 @@ public class RNCardIOModule extends ReactContextBaseJavaModule implements Activi
       promise.reject("user_cancelled", "The user cancelled");
     }
   }
-
-  @Override
-  public void onNewIntent(Intent intent) {}
 }
